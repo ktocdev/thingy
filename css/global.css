@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p,header,section,article,aside,footer{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+ul{
+	margin: 10px 0;
+}
+aside.col3{
+	float: left;
+	margin: 0;
+	width: 22.75%;
+}
+.onepcssgrid-1000 {
+	float: left;
+	width: 74.25%;
+}
+section{
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+header,footer{
+	width: 100%;
+	background-color: #dcdcdc;
+	clear: both;
+	padding: 20px 4.4%;
+}
+[class*="col"]{
+	margin: 20px 3% 20px 0;
+}
+[class*="col"].last{
+	margin: 20px 0;
+}
+
+
+#map-canvas {
+  height: 400px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+}
